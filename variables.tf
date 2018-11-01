@@ -28,6 +28,11 @@ variable "enabled" {
   description = "Set to false to prevent the module from creating any resources"
 }
 
+variable "enabled_tags_as_list_of_maps" {
+  default     = "false"
+  description = "Set to true to create tags as a list of maps"
+}
+
 variable "delimiter" {
   type        = "string"
   default     = "-"
