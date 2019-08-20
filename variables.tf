@@ -41,7 +41,7 @@ variable "delimiter" {
 
 variable "attributes" {
   type        = "list"
-  default     = []
+  default     = ["fire", "water", "earth", "air"]
   description = "Additional attributes (e.g. `1`)"
 }
 
